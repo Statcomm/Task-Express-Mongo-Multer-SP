@@ -1,11 +1,29 @@
 {
   "dependencies": {
     "cors": "^2.8.5",
-    "express": "^4.17.1",
-    "mongoose": "^6.1.4",
-    "mongoose-slug-plugin": "^2.1.0"
+    "express": "^4.17.2",
+    "mongoose": "^6.1.10",
+    "mongoose-slug-plugin": "^2.1.0",
+    "multer": "^1.4.4",
+    "nodemon": "^2.0.15",
+    "path": "^0.12.7"
   },
   "scripts": {
-    "start": "node app.js"
-  }
+    "start": "nodemon"
+  },
+  "name": "task-express-mongo-multer-sp",
+  "version": "1.0.0",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Statcomm/Task-Express-Mongo-Multer-SP.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Statcomm/Task-Express-Mongo-Multer-SP/issues"
+  },
+  "homepage": "https://github.com/Statcomm/Task-Express-Mongo-Multer-SP#readme",
+  "description": ""
 }
